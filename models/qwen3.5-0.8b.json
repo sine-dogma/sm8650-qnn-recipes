@@ -1,0 +1,26 @@
+{
+  "id": "qwen3.5-0.8b",
+  "repo_id": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "license": "apache-2.0",
+  "adapter": "qwen35",
+  "target": "sm8650-ac",
+  "context_length": 2048,
+  "prefill_sequence_length": 64,
+  "decode_sequence_length": 1,
+  "layers_per_partition": 4,
+  "expected_graphs": 15,
+  "expected_contexts": 8,
+  "pilot_part": "layers_00_03",
+  "primitive_rmsnorm": true,
+  "calibration": {
+    "profile": "xlam",
+    "repo_id": "Salesforce/xlam-function-calling-60k",
+    "revision": "26d14ebfe18b1f7b524bd39b404b50af5dc97866",
+    "filename": "xlam_function_calling_60k.json",
+    "sha256": "4ef5c6f0dc552f2231f93f5853a9ef431e9e806d7aa514d0f6b615606ce576c6",
+    "license": "cc-by-4.0",
+    "samples": 256,
+    "seed": 20261030
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "precision": "w4a8",
+  "weight_bits": 4,
+  "activation_bits": 8,
+  "bias_bits": 32,
+  "float_bits": 32,
+  "preserve_io_datatype": "all",
+  "native_input_files": true,
+  "parameter_calibration": "min-max",
+  "activation_calibration": "min-max",
+  "per_channel_quantization": false,
+  "per_row_quantization": false,
+  "parameter_schema": "sdk_default",
+  "activation_schema": "sdk_default"
+}

@@ -1,0 +1,44 @@
+License scope
+=============
+
+The contributors dedicate the original code, recipes, tests and documentation
+in this repository to the public domain under CC0 1.0 Universal. See LICENSE.
+Commercial reuse of these original materials is permitted by that dedication.
+
+External materials retain their own terms. They are downloaded separately and
+are not included in this source repository:
+
+* Qwen/Qwen3.5-0.8B: Apache License 2.0.
+  https://huggingface.co/Qwen/Qwen3.5-0.8B
+  Pinned revision: 2fc06364715b967f1860aea9cf38778875588b17
+
+* Salesforce/xlam-function-calling-60k: Creative Commons Attribution 4.0.
+  https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k
+  Pinned revision: 26d14ebfe18b1f7b524bd39b404b50af5dc97866
+  Attribution: Salesforce APIGen / xLAM dataset authors.
+  APIGen: Automated Pipeline for Generating Verifiable and Diverse
+  Function-Calling Datasets (2024): https://arxiv.org/abs/2406.18518
+  https://creativecommons.org/licenses/by/4.0/
+  Calibration selects existing records, normalizes function descriptions,
+  renders the model's chat template, tokenizes conversations and captures
+  model inputs. It does not transfer ownership of the source dataset.
+
+* Qualcomm AI Hub Models: BSD 3-Clause.
+  Copyright 2025 Qualcomm Technologies, Inc. and/or its subsidiaries.
+  https://github.com/qualcomm/ai-hub-models
+  Pinned commit: d075bf442f46b58bfffdc79b3eaaf62636acd79b
+  The Qwen adapter imports upstream attention/model implementations. The
+  dependency is installed separately with its original license intact.
+
+* Qualcomm AI Runtime / QNN SDK and runtime libraries: Qualcomm's applicable
+  SDK and redistribution terms. Obtain the SDK from Qualcomm and review
+  those terms separately. No SDK executables, libraries or source are bundled.
+
+Other Python dependencies retain their own licenses. Converted model bundles
+retain the base model license and source attribution. Packaging includes the
+upstream model license, calibration attribution and AI Hub Models license;
+the source repository's CC0 dedication is not applied to those materials.
+
+Creative Commons' software guidance and CC0 terms:
+https://creativecommons.org/faq/
+https://creativecommons.org/publicdomain/zero/1.0/legalcode

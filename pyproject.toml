@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=80,<83"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sm8650-qnn-recipes"
+version = "0.1.0"
+description = "Local QAIRT conversion recipes for the Snapdragon SM8650 HTP"
+requires-python = ">=3.12"
+license = "CC0-1.0"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.scripts]
+sm8650-qnn = "sm8650_qnn.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sm8650_qnn = ["guard/*.py"]

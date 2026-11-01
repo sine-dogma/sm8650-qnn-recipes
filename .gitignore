@@ -1,0 +1,32 @@
+# Local environments, credentials and downloaded dependencies
+.venv*/
+.local/
+.env
+.env.*
+!.env.example
+third_party/
+sdks/
+sdk/
+work/
+outputs/
+cache/
+.cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# Never publish model assets or calibration captures in this source repository.
+*.safetensors
+*.onnx
+*.data
+*.dlc
+*.bin
+*.raw
+*.npz
+*.log
+*.zip
+*.tar.gz
+*token*.txt
+*credential*

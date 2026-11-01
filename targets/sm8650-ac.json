@@ -1,0 +1,14 @@
+{
+  "id": "sm8650-ac",
+  "description": "Snapdragon Galaxy S24 / Snapdragon 8 Gen 3 for Galaxy",
+  "soc_model": 57,
+  "dsp_arch": 75,
+  "backend_id": 6,
+  "optimization": 3,
+  "weight_sharing_enabled": true,
+  "short_depth_conv_on_hmx_off": true,
+  "fp16_relaxed_precision": 1,
+  "vtcm_mb": 0,
+  "qairt_version": "2.51.40",
+  "qairt_build_id": "260930230134"
+}
